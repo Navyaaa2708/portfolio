@@ -978,3 +978,14 @@ header {
     padding: 15px 0;
   }
 }
+
+footer {
+  background-color: #f8f4ff;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 1rem;
+  color: #6b46c1;
+  font-weight: 500;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
