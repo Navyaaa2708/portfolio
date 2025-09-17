@@ -280,7 +280,12 @@
 </footer>
 
 <script>
-  
+   const mobileMenu = document.getElementById('mobile-menu');
+  const navList = document.querySelector('.nav-list');
+
+  mobileMenu.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
 
